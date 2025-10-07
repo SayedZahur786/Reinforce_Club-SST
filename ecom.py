@@ -15,7 +15,7 @@ def load_model():
     feature_model = MobileNetV2(weights="imagenet", include_top=False, pooling="avg")
     return base_model, feature_model
 
-# -------------------------
+#-------------------------
 
 # Preprocess the uploaded image
 # -------------------------
