@@ -1,3 +1,0 @@
-This is an implemntation of Pattern Rcognition and Live Video Analysis using opencv and cvzone using the Dino Game. The game was initially developed and still belongs to https://github.com/MaxRohowsky with his repo being https://github.com/MaxRohowsky/chrome-dinosaur .
-I've used his code with necessary adjustments to fit the time lag between the gesture delivery and its detection, and also coded the gesture detection model.
-The crux being, the game belongs to https://github.com/MaxRohowsky, but the gesture-control interface is mine, i.e., https://github.com/Salil-IND.
