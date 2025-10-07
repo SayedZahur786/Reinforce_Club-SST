@@ -14,7 +14,8 @@ while True:
     success, img = cap.read()
     img = cv2.flip(img, 1)
     hand, img = detector.findHands(img)
-    if hand and hand[0]['type'] == "Right":        fingers = detector.fingersUp(hand[0])
+    if hand and hand[0]['type'] == "Right":        
+        fingers = detector.fingersUp(hand[0])
         totalFingers = fingers.count(1)
         cv2.putText(img, f'Fingers: {totalFingers}', (50, 50), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0), 2)
         if totalFingers == 5:
