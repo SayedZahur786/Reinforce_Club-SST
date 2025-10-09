@@ -1,0 +1,7 @@
+tensorflow
+streamlit
+requests
+python-dotenv
+PIL
+numpy
+opencv-python
