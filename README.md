@@ -1,25 +1,40 @@
-# REINFORCE Club GitHub Repository 🚀
+🧠✨ AI Image Classifier
 
-Welcome to the official GitHub repository for the **REINFORCE Club** at SST! 🎉 This repository is your central hub for all the exciting AI/ML resources and projects developed by our club. 🤖
+A smart and interactive web app built with Streamlit that uses deep learning to recognize what’s inside your images — in just seconds! 🚀
 
----
+🌐 Live Demo
 
-## What You'll Find Here 📂
+🔗 Try it now: https://ai-image-classifier-yw8jmptfdt64yxxyxprabj.streamlit.app/
 
-This repository will contain:
+🖼️ About The Project
 
-* **Project Codebases:** All the code for the AI/ML projects we work on, from initial prototypes to completed applications. 🧑‍💻
-* **Learning Resources:** Curated links, notebooks, and materials we've found helpful in our AI/ML journey. 📚
-* **Workshop Materials:** Resources and code from any workshops or hands-on sessions we conduct. 🛠️
+The AI Image Classifier is a lightweight, web-based tool that allows you to upload any image (JPG/PNG) and instantly get predictions about what’s in it 🤖.
 
----
+It harnesses the power of MobileNetV2, a pre-trained convolutional neural network, to analyze images and display the top 3 predictions with their confidence scores 📊.
 
-## Team Members 🤝
+Whether it’s a 🐶 dog, 🚗 car, or ☕ coffee cup — this app figures it out instantly! ⚡
 
-* Priyam Ghosh
-* Sayed Zahur
-* Eshita Yelawatti
+⚙️ Tech Stack & Tools
 
----
+🧩 Python – The backbone of the entire project.
+🎨 Streamlit – For building a smooth, interactive, and modern web UI.
+🧠 TensorFlow / Keras – To load and run the pre-trained MobileNetV2 model.
+🖼️ OpenCV – For image preprocessing (resizing and formatting).
+📷 Pillow (PIL) – To handle uploaded image files seamlessly.
 
-We're excited to share our work and learn together! Happy coding! ✨
+🔍 How It Works
+
+1️⃣ Upload an Image
+➡️ Choose any image file (JPG or PNG) from your device.
+
+2️⃣ Model Preprocessing
+🧮 The image is resized and normalized using OpenCV and preprocess_input().
+
+3️⃣ Prediction Time
+🤖 The MobileNetV2 model runs inference on the processed image.
+
+4️⃣ Results Displayed
+📊 The app shows the top 3 predicted labels along with their confidence percentages.
+
+5️⃣ Visual Output
+🖼️ You see your uploaded image alongside the predictions — neat and instant! ⚡
